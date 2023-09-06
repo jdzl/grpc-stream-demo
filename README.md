@@ -32,6 +32,9 @@
 $ pnpm install
 ```
 
+change app.module  URL_DB
+
+
 ## Running the app
 
 ```bash
@@ -44,6 +47,13 @@ $ pnpm run start:dev
 # production mode
 $ pnpm run start:prod
 ```
+
+TEST endpoint
+
+```
+GET localhost:3000/demo
+```
+
 
 ## Test
 
@@ -64,9 +74,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [David Zambrano](https://www.linkedin.com/in/david-zambrano-lizarazo-15963a104)
+
 
 ## License
 
