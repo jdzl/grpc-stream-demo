@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package contact; // Match the package name you defined in grpc.server.ts
+
+service TaskService {
+  rpc StreamTasks (TaskRequest) returns (stream TaskResponse);
+}
+
+message TaskRequest {
+  optional string name = 1;  
+}
+
+message TaskResponse {
+  optional string name = 1;
+  string uuid = 2;
+}
